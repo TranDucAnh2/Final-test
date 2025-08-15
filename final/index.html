@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <button id="start" class="start-button">Start bro</button>
+        <div class="game-area">
+            <div id="game" class="game-board"></div>
+            <div class="side-panel">
+                <div class="info">
+                    <span class="timer-title">Time wasted hurry up</span>
+                    <span id="timer" class="timer">00:00</span>
+                </div>
+                <div class="info-move">
+                    <span class="instructions">Movement ez</span>
+                    <img src="Opera Snapshot_2025-08-15_221941_static.vecteezy.com.png"
+                        alt="figure movement by yourself lmfao" class="instructions-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-panel">
+            <p id="moves" class="moves-text">steps</p>
+            <div id="win" class="win-message hidden">YOU WIN NOW WHAT?</div>
+        </div>
+
+        <div class="history-section">
+            <h2 class="history-title">Your failures</h2>
+            <div class="history" id="history">
+                <div class="grid-header">
+                    <div class="grid">#</div>
+                    <div class="grid">steps</div>
+                    <div class="grid">time wasted</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
